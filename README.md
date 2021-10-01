@@ -25,8 +25,8 @@ First set up a few variables for your environment in file "variables.tf".
 
 | Name | Description | Type | Default |
 |------|-------------|:----:|:-----:|
-| aws\_regionp | Region to AWS. | string | `"us-east-2"` |
-| app\_name | The name of product. | string | `"DevOps"` |
+| aws\_regionp | Region to AWS. | string | `"us-west-1"` |
+| app\_name | The name of product. | string | `"APP-Rapadura"` |
 | ami\_name | The name of AWS AMI. | string | `"ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64*"` |
 | owners\_ami | The owner of the AMI "canonical". | string | `"099720109477"` |
 | count\_instance | The number of instance. | string | `"1"` |
