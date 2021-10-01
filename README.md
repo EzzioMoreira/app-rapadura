@@ -11,7 +11,14 @@ This Terraform:
 
 * Docker
 * Make
-* Credential for AWS
+
+### Credential for AWS
+Rename the env.example file to .env and add your AWS credentials.
+```shell
+# AWS environment
+AWS_ACCESS_KEY_ID =
+AWS_SECRET_ACCESS_KEY =
+```
 
 ### Usage
 First set up a few variables for your environment in file "variables.tf".
