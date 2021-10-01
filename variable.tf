@@ -1,13 +1,13 @@
 ####  The variables for backend ####
 variable "aws_region" {
-  default     = "us-east-2"
+  default     = "us-west-1"
   description = "Region to AWS"
 }
 
 ####  The variables for EC2 ####
 variable "app_name" {
   type        = string
-  default     = "DevOps-Test"
+  default     = "app-rapadura"
   description = "The name of product"
 }
 

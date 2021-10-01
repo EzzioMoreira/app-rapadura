@@ -5,8 +5,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "metal.corp-devops-test"
-    key    = "terraform-labapp.tfstate"
-    region = "us-east-2"
+    bucket = "app-rapadura"
+    key    = "app-terraform-rapaduras.tfstate"
+    region = var.aws_region
   }
 }
